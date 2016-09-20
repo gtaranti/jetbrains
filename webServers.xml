@@ -1,0 +1,89 @@
+<application>
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="1bd42b44-b92f-4082-a801-cd88b88bca43" name="GTDS BAS " url="http://dev.bunkeringatsea.com">
+        <fileTransfer host="192.168.1.5" port="22" rootFolder="/web/bas" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="74586049-827c-4aac-b1cd-40a84a16320a" name="BAS LIVE" url="http://www.bunkeringatsea.com">
+        <fileTransfer host="ftp.bunkeringatsea.com" port="21" rootFolder="/public_html">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="f3ef4701-ed30-4c2b-b4b8-e50c4c4dc644" name="AGN" url="http://www.autogreeknews.gr">
+        <fileTransfer host="autogreeknews.gr" port="6969" rootFolder="/usr/local/apache/htdocs" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="6969" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="108ae148-7a15-46af-9fc1-cb0473e6efd5" name="Archaies Kleones" url="http://archaies-kleones.dev">
+        <fileTransfer port="0" accessType="LOCAL" />
+      </webServer>
+      <webServer id="fa8bf0ee-1d2b-4ccb-9f2d-537ee2b0d049" name="FNT" url="http://www.fnt.gr">
+        <fileTransfer host="ftp.fnt.gr" port="21" rootFolder="/httpdocs">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="aeadba69-cff4-4d1c-aa62-488ef8eb7349" name="Local Server - Yii" url="http://yii.dev">
+        <fileTransfer accessType="LOCAL" />
+      </webServer>
+      <webServer id="7519eb2a-b719-405c-b1dd-47162e76e4d9" name="LocalServer - yii2" url="http://yii2.dev">
+        <fileTransfer accessType="LOCAL" />
+      </webServer>
+      <webServer id="e0d0ac28-5043-4e29-86c5-fe5c2a468b0b" name="metronic" url="http://metronic.dev">
+        <fileTransfer accessType="LOCAL" />
+      </webServer>
+      <webServer id="1c1f65f5-19b5-4bfc-9872-2d1d6de2cebc" name="CentSRV" url="http://test.centsrv.gt.lan">
+        <fileTransfer host="centsrv.gt.lan" port="22" rootFolder="/usr/local/apache/htdocs" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="7c8b7ca8-23de-4aaa-9df6-48fea2fb0543" name="QUEST" url="http://quest.gt.lan">
+        <fileTransfer host="centsrv" port="22" rootFolder="/var/www/html/quest" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="b1013896-82dc-458c-8101-ca9359ed2748" name="QUEST DEV" url="http://quest.dev">
+        <fileTransfer accessType="LOCAL" />
+      </webServer>
+      <webServer id="34f3d676-1161-48d5-a3ef-9e750f69f51f" name="yii2-testing" url="http://yii2-testing.dev">
+        <fileTransfer port="0" accessType="LOCAL" />
+      </webServer>
+      <webServer id="eab6f7bf-d5a7-4b86-a454-d910a6fb1836" name="CentSRV-Canvas" url="http://canvas.gt.lan">
+        <fileTransfer host="192.168.1.68" port="22" rootFolder="/var/www/html/canvas" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="f5261770-82ae-495c-99bb-6e901bd2445a" name="WPLMS" url="http://wplms.dev">
+        <fileTransfer port="0" accessType="LOCAL" />
+      </webServer>
+      <webServer id="8b23461d-427e-49d7-b56e-d398b47149ec" name="BAS" url="http://bas.gt.lan">
+        <fileTransfer port="0" accessType="LOCAL" />
+      </webServer>
+    </option>
+  </component>
+  <component name="webServersAuthStorage">
+    <data>AAADQEdclNkhVETSczJEv9vxOHYnx3YRyk8APnm2ankuI9TMtgRl42Q2YGpm4jv68CZpAxiy77xdtwXmUGRA5HUCZ+JnUpj/Lbx4U3bJxuUy2etA0G3I4ls52ZyvV8B3NiwGwunNSC1qdmb/McTQ61mnGq1hTGIEaBwkcrm/+3fbThswNKlTKm3WjC45jNbcHaHw7JAXV/FqQpATgjxkHBVlpoCXwKNytWMsRrC8rgL6+NbyB6j3V/pDKtvp3kG1yUJELdBa9CtBUYQXZ4cvBIJsvUEso3XzlxRJKyKQHubIK/YPwXAl7Z0QIB7exUdFaV/aXde2gO5IJW8oFaO5nFjOKFy+WJb9rHnNKAx+zMCNNzNm/vv2qGhkiLCrdbQ2ek9orLV9l305RHW7jtFkovo7q2Ya8lMtM9JcCAIKY/IVOTOclH+/Ugu5N+XXLirLqhn0Cq6W3fxAmMnMHgDHRpL7RJ+bzKNo7FCxlq+707wJhZciFRXClTQ1Q6PpcJINwcdRYCDi79HBq08rGSjiqGUIiSfSTAA5xHwfO2tjNxlyd4Aa6/xsJnahoeGQ1F2/Ta69j7C05Uo4HCW+4RTNoWB2g/YUO1tPK3CctiLlzcRFg2amMlTunw9N2Yd4gIMseDVx47EKuqGa+NMaj7AGx0sF3JcIzQtEJr9LsITDWAIvII913PQQdgqNQNoJKQwvC7UWVpNy6NaE3kmCmSTBFkdKHx+IOfOmbDZYS3/IM3G8rvaL0v5H8N5994nAQYVy4bXSxpu35GQ2cCZ/DYhDLLlX6cM0puA29jrkhg5fUJ3k6hnJX23v0qboL3qyVg7qeiNa7p+D0Rfdj3cpI/TTxk8/RNCU76Rv0aJxali0AIz/RMT1N0mWM6KMhfx55XOnasEw9a5p3YsF3v10RvYsjc4HNqOjoPlBUqyElPjaE6RHIQEsDg3YkPaakUNj8pWLLNWOdqPAJeY73ghmjOiLrd89WdeyB7XrZBSEQWphZUOrW95LGYns3Ekzb+rCK1ifJlO9Gw7kwpM2qieCKt37U9q60s+wsXrhiu7SVYnMRIqOu1EjwQVLdX35Q22MsT8yny3VODXcMt+pog5SDfyASu5YdKmajuW5U1y3y3tuE1bXXLVU</data>
+  </component>
+</application>

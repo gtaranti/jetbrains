@@ -1,0 +1,26 @@
+<application>
+  <component name="AppInspectionProfilesVisibleTreeState">
+    <entry key="Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>CSS</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="NodeJsLocalInterpreters">
+    <local-interpreter path="/usr/local/Cellar/node/6.1.0/bin/node">
+      <version-cache version="6.1.0" last-modified="1462485688000" />
+    </local-interpreter>
+    <local-interpreter path="/usr/local/bin/node">
+      <version-cache version="6.5.0" last-modified="1472225243000" />
+    </local-interpreter>
+  </component>
+</application>
