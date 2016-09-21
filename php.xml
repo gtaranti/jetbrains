@@ -558,7 +558,7 @@
         </phpinfo>
       </interpreter>
       <interpreter name="CentSRV PHP 5.4">
-        <phpinfo binary_type="PHP" php_cgi="/usr/bin/php-cgi" php_cli="/usr/bin/php" path_separator=":" remote_host="192.168.1.10 61588 22" version="5.4.45" warning="PHP Warning:  Module 'xdebug' already loaded in Unknown on line 0&#10;">
+        <phpinfo binary_type="PHP" php_cgi="/usr/bin/php-cgi" php_cli="/usr/bin/php" path_separator=":" remote_host="192.168.1.10 54968 22" version="5.4.45" warning="PHP Warning:  Module 'xdebug' already loaded in Unknown on line 0&#10;">
           <additional_php_ini>/etc/php.d/bcmath.ini, /etc/php.d/bz2.ini, /etc/php.d/calendar.ini, /etc/php.d/ctype.ini, /etc/php.d/curl.ini, /etc/php.d/dom.ini, /etc/php.d/exif.ini, /etc/php.d/fileinfo.ini, /etc/php.d/ftp.ini, /etc/php.d/gd.ini, /etc/php.d/gettext.ini, /etc/php.d/gmp.ini, /etc/php.d/iconv.ini, /etc/php.d/imap.ini, /etc/php.d/json.ini, /etc/php.d/mbstring.ini, /etc/php.d/mcrypt.ini, /etc/php.d/mysqlnd.ini, /etc/php.d/mysqlnd_mysql.ini, /etc/php.d/mysqlnd_mysqli.ini, /etc/php.d/pdo.ini, /etc/php.d/pdo_mysqlnd.ini, /etc/php.d/pdo_sqlite.ini, /etc/php.d/phar.ini, /etc/php.d/posix.ini, /etc/php.d/shmop.ini, /etc/php.d/simplexml.ini, /etc/php.d/sockets.ini, /etc/php.d/sqlite3.ini, /etc/php.d/sysvmsg.ini, /etc/php.d/sysvsem.ini, /etc/php.d/sysvshm.ini, /etc/php.d/tidy.ini, /etc/php.d/tokenizer.ini, /etc/php.d/xml.ini, /etc/php.d/xml_wddx.ini, /etc/php.d/xmlreader.ini, /etc/php.d/xmlwriter.ini, /etc/php.d/xsl.ini, /etc/php.d/zip.ini</additional_php_ini>
           <configuration_file>/etc/php.ini</configuration_file>
           <configuration_options>
@@ -587,7 +587,7 @@
             <configuration_option name="date.default_longitude" value="35.2333" />
             <configuration_option name="date.sunrise_zenith" value="90.583333" />
             <configuration_option name="date.sunset_zenith" value="90.583333" />
-            <configuration_option name="date.timezone" value="" />
+            <configuration_option name="date.timezone" value="Europe/Athens" />
             <configuration_option name="default_charset" value="UTF-8" />
             <configuration_option name="default_mimetype" value="text/html" />
             <configuration_option name="default_socket_timeout" value="60" />
