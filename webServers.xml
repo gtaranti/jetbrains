@@ -9,14 +9,6 @@
           <option name="port" value="22" />
         </fileTransfer>
       </webServer>
-      <webServer id="74586049-827c-4aac-b1cd-40a84a16320a" name="BAS LIVE" url="http://www.bunkeringatsea.com">
-        <fileTransfer host="ftp.bunkeringatsea.com" port="21" rootFolder="/public_html">
-          <advancedOptions>
-            <advancedOptions dataProtectionLevel="Private" passiveMode="true" />
-          </advancedOptions>
-          <option name="port" value="21" />
-        </fileTransfer>
-      </webServer>
       <webServer id="f3ef4701-ed30-4c2b-b4b8-e50c4c4dc644" name="AGN" url="http://www.autogreeknews.gr">
         <fileTransfer host="autogreeknews.gr" port="6969" rootFolder="/usr/local/apache/htdocs" accessType="SFTP">
           <advancedOptions>
@@ -84,9 +76,12 @@
       <webServer id="129c7279-a3ce-40db-91c0-39f3b3923a1b" name="GTDS" url="http://192.168.1.5">
         <fileTransfer port="0" mountedRoot="/Volumes/web" accessType="MOUNT" />
       </webServer>
+      <webServer id="edd56b4c-125a-4098-89d0-20491bedc99c" name="Synology" url="http://synology.gt.lan">
+        <fileTransfer port="0" accessType="LOCAL" />
+      </webServer>
     </option>
   </component>
   <component name="webServersAuthStorage">
-    <data>AAADQFkLvfpaYcKt7TAo0U6EdXDyNZ7VzxuyIeDAY08cZlSCU2FLT9n8L/ZZPZjD1iTEgMTEQKj5P53HCMgXQ6WU3H1diDSW4FyLtXFFDRmlDBMVE7dv88YlZ0UA/skHNMetjdfr/zPfUuM4Fe/LRd6MwoCVN8YseAVd79UYPHDMiuIvq5D4BJVl29EJkqIinFknuNcTN9LZbzfN+UMmiH1Kp75H5CsZ315KVTkJYDfiT678N3S3bpZhcAIXAxH7gmkV3d+8giLRSYqMQiqzWK/CjjEJ8RDeNWs9iA4MvzHuN6eU1NbavF465+XrqiLXb02zB1ND2vK0Nm5Af0MTUat/DRqeif38/tTXxjLgO+/iw/QFV+iu9mSoTuY5i4r2OG3tHYe7B0ETPn3oKgsKuSjbr4+4A6NKEeFaJo/heTh1SI6NOaPIdpBDP/uG6p5cJSvUDIuzaxE6+3HdusCe1SqTKNeYvpb73D2P8A53wnbApF19TJ7B7LEobVg4sVZ+C4RHFoDpBnI22lTZcub1vK+usBXnztTsXkVwm/lqXV9Nksdb3B3jLM6afICrpqkjpTzBE9SJV2DcIxhNPCY+tm6Prny5CdJEgu5jkHar6UR54je32mi06KaO8J6WH02+Xbe+lmYaiiPjWYObnnvL2WhRHkLtjSMYhF+9qX8Hg0jxIjfqKgtY7UdfJzJif6I0cEn1dzBNFhLbCXuZH/qKYL8wYhWkxiDFeW80HPD0gW1d+NdJCxW1SdZ0clwEi/w06OiLNbEz44efF16E4iNiUikcj6bo111QT08jfi/bKISihAtNTSPGGymi/B9J3SdNQAOoRz+aDJQXez9ou95kyMYcy3hbFazxWL03k+/vz+gWxi/5e/n7qAU3jp9p0SO2/6vkdtU7Wb90LBz7MP9wabLJnAdatxtvtzYyIuYz+b5zUHgZjTVNK6XjkKmPsK9Y5AmK71NwjSaq3JNO+51FvgTyCHJOwWFwnKzCypHhmHA9xvW05PjqTe/+w7DfIGhSg746zNgKH1N64UjzKkh1Qc6zkKoKGEoM+fOWe+6Ehe39HEgXqjsqDnOLJWDHMRik4xnKkv7LtQ8b1PZf9auEqdBugE/IM6oxi0SPEE/j05PBZWJk</data>
+    <data>AAAC0IuSQoCinL7SeBGyuw6ZltFp9DxWMyQouYWtKWOf+M64TrW5vqUqhOKfDvIWdPUzybPD1H24i4ce9ZoJ0OeAu8k5im4/KgQiGfiUE1CjLhGP3/S3FYkA/PKJ4mFGyVPuplYcHL19Um3AKFFis5/Zb4TOIA54Sf0LAq1q89jthaGCeTB/6hW++BUR7rQkPCE3Wch/Q3XSGGuTvxH8Zz5wrF8VsfxdKJmRDUSIbzoRvcbnCmjlYYUWU5VdgUyG+ZHKRblRk15R+vfDmTqNKjTEUjPTt2pNnG8K5NgSjIu8/rSCn7qzaxKs40VvT7FPQbBlVlq+qOGPieJZSQ7WP3vkKkgyUGoaOC2G0cRMNrlPfBhCwrYNsNrkbz7G8zgx0Z0drIcmebREeehOTVds31BKftCrT0d2/ZkmdwbzNTz/XoPU5K8TwBNZatfTR1IyJjm5pOEGnMd/nWuWT5ZJXapI2kt0E5d0MPZNWSLaFEZz5k142cby4bJ8Skb1UiNxt4BOjpXzlypG5q43+6G5t6gUnKcfL+zP2TkolAOwfFO69P7yR8Z1tZDrYosYbB2sbwku+7H7SBQN6HjXak594yM+7vnp7Cr+F6ztbFb+zIssw07EUKDS4mn1dk0xfZ9pAucRNjq1qUqpO08PBc0zhUVmYOsIxa4S9imQavcsWNvvKaDl9RRZlVzDRwS5jnZcmIjaORnvm/EFTlgZv5L4HegOmwuNZuo8WYiyNK7TmKdW7WxPlpyv/wOtmJW2np3WVF0pHMbRMyd/ojdClrcs24jE1IaulciOr3v6C38UtB6I8tqA0vIIB89pnItAfpXkhc7WrsuE0T+LPonxhk8AeQDVzzbHkPGoebvAiIS1Dpl3xE+SvJkLGe56Z8PR49G48s6gy5wNrqFl6/WA/JO/nmFH6+YLdywi6muFVhExtwNZ5Ne+gjsqgK7fDuuN6FfkNPOFWOMlXz62Czw+tmPpX3cj+WU=</data>
   </component>
 </application>
