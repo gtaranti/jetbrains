@@ -79,6 +79,14 @@
       <webServer id="edd56b4c-125a-4098-89d0-20491bedc99c" name="Synology" url="http://synology.gt.lan">
         <fileTransfer port="0" accessType="LOCAL" />
       </webServer>
+      <webServer id="2dff74f6-aaac-4a11-b6c0-95b557920f74" name="SPM-SRV" url="http://spm.gt.lan">
+        <fileTransfer host="centsrv.gt.lan" port="22" rootFolder="/var/www/html/spm" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
     </option>
   </component>
 </application>
