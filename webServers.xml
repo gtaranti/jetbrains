@@ -87,6 +87,9 @@
           <option name="port" value="22" />
         </fileTransfer>
       </webServer>
+      <webServer id="a15ddc0d-2ce5-41cc-8371-e76cc9690ded" name="spm.dev" url="http://spm.dev">
+        <fileTransfer port="0" accessType="LOCAL" />
+      </webServer>
     </option>
   </component>
 </application>
