@@ -90,6 +90,9 @@
       <webServer id="a15ddc0d-2ce5-41cc-8371-e76cc9690ded" name="spm.dev" url="http://spm.dev">
         <fileTransfer port="0" accessType="LOCAL" />
       </webServer>
+      <webServer id="f4a54d1a-8531-485a-be23-433e82cd903f" name="MAMP - Legend" url="http://legend.dev">
+        <fileTransfer port="0" accessType="LOCAL" />
+      </webServer>
     </option>
   </component>
 </application>
