@@ -1,7 +1,7 @@
 <application>
   <component name="FindSettings">
-    <option name="customScope" value="File '/Users/gt/Development/focalpoint/src/pages/what-we-do/products/email-security.html'" />
-    <option name="defaultScopeName" value="File '/Users/gt/Development/focalpoint/src/pages/what-we-do/products/email-security.html'" />
-    <option name="SEARCH_SCOPE" value="File '/Users/gt/Development/focalpoint/src/pages/what-we-do/products/email-security.html'" />
+    <option name="customScope" value="All Places" />
+    <option name="defaultScopeName" value="All Places" />
+    <option name="SEARCH_SCOPE" value="All Places" />
   </component>
 </application>
