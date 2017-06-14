@@ -1,7 +1,7 @@
 <application>
   <component name="WebServers">
     <option name="servers">
-      <webServer id="1bd42b44-b92f-4082-a801-cd88b88bca43" name="GTDS BAS " url="http://dev.bunkeringatsea.com">
+      <webServer id="1bd42b44-b92f-4082-a801-cd88b88bca43" name="GTDS BAS" url="http://dev.bunkeringatsea.com">
         <fileTransfer host="192.168.1.5" port="22" rootFolder="/web/bas" accessType="SFTP">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" />
