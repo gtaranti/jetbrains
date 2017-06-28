@@ -93,6 +93,9 @@
       <webServer id="f4a54d1a-8531-485a-be23-433e82cd903f" name="MAMP - Legend" url="http://legend.dev">
         <fileTransfer port="0" accessType="LOCAL" />
       </webServer>
+      <webServer id="3d7af3e3-a4f6-4668-befc-4fbbf13ba0ba" name="Daily" url="http://192.168.1.5/daily">
+        <fileTransfer port="0" accessType="LOCAL" />
+      </webServer>
     </option>
   </component>
 </application>
