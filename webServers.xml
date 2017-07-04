@@ -96,6 +96,9 @@
       <webServer id="3d7af3e3-a4f6-4668-befc-4fbbf13ba0ba" name="Daily" url="http://192.168.1.5/daily">
         <fileTransfer port="0" accessType="LOCAL" />
       </webServer>
+      <webServer id="ae9c8468-1994-4480-be60-27090d3ba3ba" name="Faults DEV" url="http://faults.dev">
+        <fileTransfer port="0" accessType="LOCAL" />
+      </webServer>
     </option>
   </component>
 </application>
