@@ -107,6 +107,14 @@
           <option name="port" value="6521" />
         </fileTransfer>
       </webServer>
+      <webServer id="a8c6c834-ac8c-4d65-aa88-ecd207a52aae" name="GTDS-FNT-Faults" url="http://faults.dev">
+        <fileTransfer host="192.168.1.5" port="6521" rootFolder="/web/fnt-faults" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="6521" />
+        </fileTransfer>
+      </webServer>
     </option>
   </component>
 </application>
