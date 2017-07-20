@@ -100,9 +100,9 @@
         <fileTransfer port="0" accessType="LOCAL" />
       </webServer>
       <webServer id="f9d70457-73f7-475d-8e1c-db6f9d24e258" name="GTDS - FNT-Faults" url="http://faults.dev">
-        <fileTransfer host="192.168.1.5" port="6521" accessType="SFTP">
+        <fileTransfer host="192.168.1.5" port="6521" rootFolder="/web/fnt-faults-management" accessType="SFTP">
           <advancedOptions>
-            <advancedOptions dataProtectionLevel="Private" />
+            <advancedOptions dataProtectionLevel="Private" maxConnections="10" />
           </advancedOptions>
           <option name="port" value="6521" />
         </fileTransfer>
