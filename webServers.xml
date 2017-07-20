@@ -99,6 +99,14 @@
       <webServer id="ae9c8468-1994-4480-be60-27090d3ba3ba" name="Faults DEV" url="http://faults.dev">
         <fileTransfer port="0" accessType="LOCAL" />
       </webServer>
+      <webServer id="a88a9ab9-a7b1-428e-a263-b8f43742b89a" name="GTDS - FNT-Faults" url="http://faults.dev">
+        <fileTransfer host="192.168.1.5" port="22" rootFolder="/web/fnt-faults-management" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" muteSftpMessages="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
     </option>
   </component>
 </application>
