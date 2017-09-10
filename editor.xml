@@ -1,4 +1,11 @@
 <application>
+  <component name="EditorSettings">
+    <option name="languageBreadcrumbsMap">
+      <map>
+        <entry key="PHP" value="true" />
+      </map>
+    </option>
+  </component>
   <component name="LiveEditOptions" updatePolicy="AUTO" />
   <component name="SqlEditorOptions">
     <option name="concatenateStringsOnEnter" value="true" />
