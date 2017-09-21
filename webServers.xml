@@ -115,6 +115,14 @@
           <option name="port" value="22" />
         </fileTransfer>
       </webServer>
+      <webServer id="65303a56-0d8f-461f-8208-4b460965b752" name="OLYMPOS" url="https://fnt.synology.me/fnt-faults/web">
+        <fileTransfer host="fnt.synology.me" port="2200" rootFolder="/web/fnt-faults" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="2200" />
+        </fileTransfer>
+      </webServer>
     </option>
   </component>
 </application>
