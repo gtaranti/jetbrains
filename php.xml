@@ -9,17 +9,6 @@
       <PhpCSConfiguration />
     </phpcs_settings>
   </component>
-  <component name="PhpInterpreters">
-    <interpreters>
-      <interpreter home="/Applications/MAMP/bin/php/php5.5.26/bin/php" id="837f9640-7b11-48d9-a21f-0d0b4669ea6f" name="PHP 5.5" debugger_id="php.debugger.XDebug" />
-      <interpreter home="/Applications/MAMP/bin/php/php5.4.42/bin/php" id="5c52ab4d-e048-4b8b-8770-8fd43f817f04" name="PHP 5.4" debugger_id="php.debugger.XDebug" />
-      <interpreter home="sftp://root@centsrv.gt.lan:22/usr/bin/php" id="2f993e0f-6c86-4566-b219-3ab84dd99271" name="CentSRV PHP 5.4" debugger_id="php.debugger.XDebug" debugger_extension="/usr/lib64/php/modules/xdebug.so">
-        <remote_data WEB_SERVER_CONFIG_ID="1c1f65f5-19b5-4bfc-9872-2d1d6de2cebc" WEB_SERVER_CONFIG_NAME="CentSRV" HOST="centsrv.gt.lan" PORT="22" ANONYMOUS="false" USERNAME="root" PASSWORD="" PRIVATE_KEY_FILE="" MY_KNOWN_HOSTS_FILE="" PASSPHRASE="" USE_KEY_PAIR="false" INTERPRETER_PATH="/usr/bin/php" HELPERS_PATH="/root/.phpstorm_helpers" INITIALIZED="false" VALID="true" />
-      </interpreter>
-      <interpreter home="/usr/bin/php" id="4367cb85-3127-4aac-bc74-7455a3c99646" name="PHP 5.6" debugger_id="php.debugger.XDebug" />
-      <interpreter home="/usr/local/Cellar/php71/7.1.1_12/bin/php" id="dbe06c31-7ab2-44af-86fb-dd5625e8ae0c" name="PHP 7.1" debugger_id="php.debugger.XDebug" />
-    </interpreters>
-  </component>
   <component name="PhpInterpretersPhpInfoCache">
     <phpInfoCache>
       <interpreter name="PHP 5.6">
