@@ -1,6 +1,5 @@
 <application>
   <component name="MaterialThemeConfig">
-    <option name="selectedTheme" value="PALENIGHT" />
     <option name="defaultBackground" value="" />
   </component>
 </application>
