@@ -3,14 +3,14 @@
     <property name="created">2017-07-21T08:47:30</property>
     <property name="ide">WebStorm</property>
     <property name="ideVersion">2017.2.0.0</property>
-    <property name="modified">2018-01-13T16:05:16</property>
+    <property name="modified">2018-01-13T16:08:57</property>
     <property name="originalScheme">_@user_Cobalt</property>
   </metaInfo>
   <colors>
     <option name="CARET_COLOR" value="ffffff" />
     <option name="CARET_ROW_COLOR" value="1629" />
     <option name="CONSOLE_BACKGROUND_KEY" value="2240" />
-    <option name="GUTTER_BACKGROUND" value="2240" />
+    <option name="GUTTER_BACKGROUND" value="152f43" />
     <option name="INDENT_GUIDE" value="25425c" />
     <option name="LINE_NUMBERS_COLOR" value="ffffff" />
     <option name="SELECTED_INDENT_GUIDE" value="25425c" />
@@ -1876,7 +1876,7 @@
     <option name="TEXT">
       <value>
         <option name="FOREGROUND" value="ffffff" />
-        <option name="BACKGROUND" value="2240" />
+        <option name="BACKGROUND" value="18354a" />
       </value>
     </option>
     <option name="TEXT_SEARCH_RESULT_ATTRIBUTES">
