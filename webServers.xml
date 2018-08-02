@@ -1,0 +1,14 @@
+<application>
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="fbafd101-4400-4d1d-a7f5-58cc8a5a4eb0" name="GTDS2" url="https://dianekochilas.local">
+        <fileTransfer host="192.168.1.5" port="5422" rootFolder="/web/dianekochilas.local" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="5422" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</application>
